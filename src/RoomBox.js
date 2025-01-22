@@ -9,12 +9,21 @@ background-color: red;
 
 `
 
-const RoomBox = () =>{
+const handleClick = (link) =>{
+    if (link) {
+        window.location.href = link;
+      }
+
+}
+
+
+
+const RoomBox = ({data}) =>{
 
     return(
 
-        <Container>
-            
+        <Container onClick={()=>handleClick(data.link)}>
+            <p>{data.title}</p>
         </Container>
 
 
