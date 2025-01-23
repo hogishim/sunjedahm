@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import Body from './Body'
 import styled from 'styled-components'
+import Footer from './Footer';
 
 const Container = styled.div`
 
@@ -22,6 +23,7 @@ function App() {
     <Container>
       <Header />
       <Body />
+      <Footer />
     </Container>
   );
 }
