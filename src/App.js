@@ -1,9 +1,9 @@
 
 import './App.css';
-import Header from './Header'
-import Body from './Body'
+import Header from './Header/Header'
+import Body from './Body/Body'
 import styled from 'styled-components'
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 const Container = styled.div`
 
