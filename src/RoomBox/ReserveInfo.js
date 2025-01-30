@@ -1,3 +1,50 @@
+import styled from 'styled-components'
+import chatimage from '../source/chat.png'
+
+const ButtonContainer = styled.div`
+
+width: 40rem;
+display: flex;
+justify-content: center;
+
+
+`
+
+
+const TalkButton = styled.div`
+
+width: 15rem;
+height: 3rem;
+background-color: #24e864;
+border-radius: 5rem;
+display: flex;
+
+`
+
+const TalkImage = styled.img`
+
+width: 3rem;
+height: 3rem;
+
+
+`
+
+const TalkText = styled.div`
+
+width: 12rem;
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+`
+
+const handleClick = (link) => {
+  if (link) {
+    window.open(link, "_blank");
+  }
+};
 
 
 const ResrveInfo = () => {
@@ -12,6 +59,14 @@ const ResrveInfo = () => {
           가능합니다.{" "}
         </li>
       </ul>
+      <ButtonContainer>
+        <TalkButton onClick={() => handleClick("https://talk.naver.com/ct/w4kb8o4?frm=mnmb&frm=nmb_detail#nafullscreen")}> 
+
+          <TalkImage src={chatimage} />
+          <TalkText>네이버 톡톡 문의하기</TalkText>
+
+        </TalkButton>
+      </ButtonContainer>
       에약 절차
       <ul>
         <li>예약 시 재직 중인 회사를 알려주시기 바랍니다.</li>

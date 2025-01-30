@@ -1,11 +1,13 @@
 import data from "../source/date.json";
 import styled from "styled-components";
 
-const Container = styled.div``;
+const Container = styled.div`
+`;
 
 const Info = styled.div`
   color: red;
 `;
+
 
 const RoomInfo = () => {
   return (
@@ -14,10 +16,13 @@ const RoomInfo = () => {
         <li>
           해당 프로모션은 일요일 - 목요일 ({data.start} - {data.end} 기간)
           체크인 시, 이용 가능합니다. <br />{" "}
-          <Info>
-            ※프로모션 기간 중 금/토요일 및 아래 날짜에는, 선착순으로 한정된
-            객실에 한해 프로모션이 적용 됩니다. {data.holiday}
-          </Info>
+          {data.holiday !== null
+            ? <Info>
+              ※ 프로모션 기간 중 금/토요일 및 해당 기간({data.holiday})에는, 선착순으로 한정된
+              객실에 한해 프로모션이 적용 됩니다. 
+            </Info>
+            : <>※프로모션 기간 중 금/토요일에는, 선착순으로 한정된 객실에 한해 프로모션이 적용 됩니다.</>}
+
         </li>
         <li>
           반려동물 동반은 '펫 글램핑' 예약 시에만 가능합니다. 펫 글램핑 객실을

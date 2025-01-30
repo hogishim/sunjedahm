@@ -113,9 +113,9 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="20rem">
-          <LeftBox height="20rem">유의 사항</LeftBox>
-          <RightBox height="20rem">
+        <Row height="18rem">
+          <LeftBox height="18rem">유의 사항</LeftBox>
+          <RightBox height="18rem">
             <RoomInfo />
           </RightBox>
         </Row>

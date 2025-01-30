@@ -2,13 +2,36 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 40rem;
-  height: 6rem;
+  height: 8rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+
+      align-items: center;
+
+`;
+
+const InfoBox = styled.div`
+
+ width: 40rem;
+  height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
 
-`;
+`
+
+const LinkBox = styled.div`
+
+width: 35rem;
+  display: flex;
+  align-items: center;
+color: red;
+font-size: 14px;
+
+`
+
+
 
 const LeftBox = styled.div`
   width: 20rem;
@@ -27,9 +50,8 @@ const RightBox = styled.div`
 `;
 
 const Title = styled.div`
-  color: #244e37;
   font-size: 18px;
-  font-weight: 650;
+  font-weight: 550;
 `;
 
 const UpperBox = styled.div`
@@ -47,14 +69,16 @@ const LowerBox = styled.div`
   text-align: right;
 `;
 
-const Cap = styled.div``;
+const Cap = styled.div`
+  color: #244E37; 
+  font-size: 15px;
+  `;
 
 const Room = styled.div`
-  height: 2rem;
-  display: flex;
   display: flex;
   align-items: top;
   justify-content: right;
+  font-size: 15px;
 `;
 
 const Original = styled.div`
@@ -66,12 +90,12 @@ const Price = styled.div`
 `;
 
 const Special = styled.div`
-  height: 2rem;
   width: 100%;
   text-align: right;
   display: flex;
   align-items: top;
   justify-content: right;
+  font-size: 15px;
 `;
 
 const handleClick = (link) => {
@@ -83,30 +107,33 @@ const handleClick = (link) => {
 const RoomBox = ({ data }) => {
   return (
     <Container onClick={() => handleClick(data.link)}>
-      <LeftBox>
-        <UpperBox>
-          <Title>{data.title}</Title>
-          <Cap>
-            (기준 {data.cap}인 / 최대 {data.maxcap}인)
-          </Cap>
-        </UpperBox>
-        <LowerBox>
-          <Room>
-            방구성: ({data.size}): 퀸 사이즈 침대{data.bed}, 욕실 {data.bath}
-          </Room>
-        </LowerBox>
-      </LeftBox>
-      <RightBox>
-        <UpperBox>
-          <Original>
-            <del>정가: KRW {data.orignprice}</del>
-          </Original>
-          <Price>할인가: KRW {data.price}</Price>
-        </UpperBox>
-        <LowerBox>
-          <Special>{data.special}</Special>
-        </LowerBox>
-      </RightBox>
+      <InfoBox>
+        <LeftBox>
+          <UpperBox>
+            <Title>{data.title}</Title>
+            <Cap>
+              (기준 {data.cap}인 / 최대 {data.maxcap}인)
+            </Cap>
+          </UpperBox>
+          <LowerBox>
+            <Room>
+              방구성: ({data.size}): 퀸 사이즈 침대{data.bed}, 욕실 {data.bath}
+            </Room>
+          </LowerBox>
+        </LeftBox>
+        <RightBox>
+          <UpperBox>
+            <Original>
+              <del>정가: KRW {data.orignprice}</del>
+            </Original>
+            <Price>할인가: KRW {data.price}</Price>
+          </UpperBox>
+          <LowerBox>
+            <Special>{data.special}</Special>
+          </LowerBox>
+        </RightBox>
+      </InfoBox>
+      <LinkBox>[객실 정보 바로가기]</LinkBox>
     </Container>
   );
 };
