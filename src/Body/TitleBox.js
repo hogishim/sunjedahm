@@ -9,7 +9,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 color: #244E37;
-font-size: 18px;
+font-size: 1.2rem;
 
 `
 

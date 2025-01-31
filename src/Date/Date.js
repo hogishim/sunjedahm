@@ -22,13 +22,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-font-size: 19px;
+font-size: 1.2rem;
 
 `
 const Alert = styled.div`
 width: 39rem;
 color: red;
-font-size: 15px;
+font-size: 0.9rem;
 display: flex;
 flex-direction: column;
 align-items: center;

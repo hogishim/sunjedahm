@@ -1,6 +1,16 @@
 import styled from 'styled-components'
 import chatimage from '../source/chat.png'
 
+const Container = styled.div`
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+
+`
+
+
+
+
 const ButtonContainer = styled.div`
 
 width: 40rem;
@@ -49,7 +59,7 @@ const handleClick = (link) => {
 
 const ResrveInfo = () => {
   return (
-    <div>
+    <Container>
       예약 문의: 평일 10:00-18:00에 상담 가능합니다.
       <ul>
         <li>전화 010-7683-6220으로 예약 가능합니다.</li>
@@ -86,7 +96,7 @@ const ResrveInfo = () => {
           환불됩니다.{" "}
         </li>
       </ul>
-    </div>
+    </Container>
   );
 };
 

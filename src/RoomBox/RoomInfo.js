@@ -2,6 +2,14 @@ import data from "../source/date.json";
 import styled from "styled-components";
 
 const Container = styled.div`
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+
+
 `;
 
 const Info = styled.div`

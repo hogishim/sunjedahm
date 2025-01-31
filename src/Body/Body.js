@@ -6,10 +6,10 @@ import RoomInfo from "../RoomBox/RoomInfo";
 import data from "../source/roominformation.json";
 import Date from "../Date/Date";
 import Title from "./Title";
-import caravan from '../source/caravan.jpg'
-import forest from '../source/forest.jpg'
-import ocean from '../source/ocean.jpg'
-import pet from '../source/pet.jpg'
+import caravan from '../source/caravan_img.jpg'
+import forest from '../source/forest_img.jpg'
+import ocean from '../source/ocean_img.jpg'
+import pet from '../source/pet_img.jpg'
 
 const Container = styled.div`
   width: 70rem;
@@ -22,7 +22,7 @@ const Container = styled.div`
 
 const Image = styled.img`
   width: 35rem;
-  height: 10rem;
+  height: 15rem;
   overflow: hidden;
   margin-bottom: 2rem;
   object-fit: cover;
@@ -52,7 +52,7 @@ const LeftBox = styled.div`
   background-color: #eacab1;
   color: #f2ede0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.3rem;
 `;
 
 const RightBox = styled.div`
@@ -82,9 +82,9 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="140rem">
-          <LeftBox height="140rem">특별 요금</LeftBox>
-          <RightBox height="140rem">
+        <Row height="150rem">
+          <LeftBox height="150rem">특별 요금</LeftBox>
+          <RightBox height="150rem">
             <Title text="CARAVAN" />
 
             <Image src={caravan}/>

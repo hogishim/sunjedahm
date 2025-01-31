@@ -7,31 +7,24 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-      align-items: center;
-
+  align-items: center;
 `;
 
 const InfoBox = styled.div`
-
- width: 40rem;
+  width: 40rem;
   height: 6rem;
   display: flex;
   justify-content: center;
   align-items: center;
-
-`
+`;
 
 const LinkBox = styled.div`
-
-width: 35rem;
+  width: 35rem;
   display: flex;
   align-items: center;
-color: red;
-font-size: 14px;
-
-`
-
-
+  color: red;
+  font-size: 0.8rem;
+`;
 
 const LeftBox = styled.div`
   width: 20rem;
@@ -50,7 +43,7 @@ const RightBox = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 550;
 `;
 
@@ -70,15 +63,15 @@ const LowerBox = styled.div`
 `;
 
 const Cap = styled.div`
-  color: #244E37; 
-  font-size: 15px;
-  `;
+  color: #244e37;
+  font-size: 0.9rem;
+`;
 
 const Room = styled.div`
   display: flex;
   align-items: top;
   justify-content: right;
-  font-size: 15px;
+  font-size: 0.9rem;
 `;
 
 const Original = styled.div`
@@ -95,7 +88,7 @@ const Special = styled.div`
   display: flex;
   align-items: top;
   justify-content: right;
-  font-size: 15px;
+  font-size: 0.9rem;
 `;
 
 const handleClick = (link) => {
