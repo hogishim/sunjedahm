@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunjedahm/static/css/main.de188275.css",
-    "main.js": "/sunjedahm/static/js/main.e6cab2de.js",
+    "main.css": "/sunjedahm/static/css/main.c838e131.css",
+    "main.js": "/sunjedahm/static/js/main.72a7e92d.js",
     "static/js/488.47ab6d95.chunk.js": "/sunjedahm/static/js/488.47ab6d95.chunk.js",
     "static/media/main_img.jpg": "/sunjedahm/static/media/main_img.10736e13969f02dfe6ce.jpg",
     "static/media/pet_img.jpg": "/sunjedahm/static/media/pet_img.c5e980f3adf382e4219d.jpg",
@@ -12,12 +12,12 @@
     "static/media/sunje.png": "/sunjedahm/static/media/sunje.af5067d5d99290bdd8c5.png",
     "static/media/chat.png": "/sunjedahm/static/media/chat.4b0228bf3975020b1bf5.png",
     "index.html": "/sunjedahm/index.html",
-    "main.de188275.css.map": "/sunjedahm/static/css/main.de188275.css.map",
-    "main.e6cab2de.js.map": "/sunjedahm/static/js/main.e6cab2de.js.map",
+    "main.c838e131.css.map": "/sunjedahm/static/css/main.c838e131.css.map",
+    "main.72a7e92d.js.map": "/sunjedahm/static/js/main.72a7e92d.js.map",
     "488.47ab6d95.chunk.js.map": "/sunjedahm/static/js/488.47ab6d95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de188275.css",
-    "static/js/main.e6cab2de.js"
+    "static/css/main.c838e131.css",
+    "static/js/main.72a7e92d.js"
   ]
 }
