@@ -51,7 +51,7 @@ const Date = () => {
       </Text>
       <br />
       <Alert>
-        {data.holiday !== null
+        {data.holiday.length > 1
           ? <>※ 프로모션 기간 중 금/토요일 및 아래 날짜에는, 선착순으로 한정된 객실에 한해 프로모션이 적용 됩니다.<Holiday>{data.holiday}</Holiday></>
           :  <>※프로모션 기간 중 금/토요일에는, 선착순으로 한정된 객실에 한해 프로모션이 적용 됩니다.</>}
       </Alert>

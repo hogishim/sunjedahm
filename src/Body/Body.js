@@ -68,6 +68,18 @@ const RightBox = styled.div`
   box-sizing: border-box;
 `;
 
+const Add = styled.div`
+
+height: 1.5rem;
+width: 40rem;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 1rem;
+color: #244E37;
+
+`
+
 const Body = () => {
   return (
     <>
@@ -82,9 +94,9 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="150rem">
-          <LeftBox height="150rem">특별 요금</LeftBox>
-          <RightBox height="150rem">
+        <Row height="160rem">
+          <LeftBox height="160rem">특별 요금</LeftBox>
+          <RightBox height="160rem">
             <Title text="CARAVAN" />
 
             <Image src={caravan}/>
@@ -110,6 +122,7 @@ const Body = () => {
             <RoomBox key="7" data={data[6]} />
             <RoomBox key="8" data={data[7]} />
             <RoomBox key="9" data={data[8]} />
+            <Add><b>※ 오션뷰 A/B 객실 구성은 동일합니다</b></Add>
           </RightBox>
         </Row>
 
@@ -120,9 +133,9 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="25rem">
-          <LeftBox height="25rem">예약 문의</LeftBox>
-          <RightBox height="25rem">
+        <Row height="23rem">
+          <LeftBox height="23rem">예약 문의</LeftBox>
+          <RightBox height="23rem">
             <ReserveInfo />
           </RightBox>
         </Row>

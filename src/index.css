@@ -13,6 +13,13 @@ li span {
   padding: 0; 
 }
 
+ul {
+
+  padding-inline-start: 3rem;
+  margin: 0;
+
+}
+
 
 body {
   font-family: 'Pretendard';
@@ -24,7 +31,7 @@ body {
 
 @media screen and (max-width: 480px) {
   :root {
-    font-size: 7px;
+    font-size: 6px;
   }
 }
 
