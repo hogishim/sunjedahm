@@ -22,15 +22,22 @@ body {
   box-sizing: content-box;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   :root {
-    font-size: 10px;
+    font-size: 7px;
   }
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  :root {
+    font-size: 9px;
+  }
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   :root {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
