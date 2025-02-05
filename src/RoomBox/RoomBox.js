@@ -44,7 +44,7 @@ const RightBox = styled.div`
 
 const Title = styled.div`
   font-size: 1.2rem;
-  font-weight: 550;
+  font-weight: 600;
 `;
 
 const UpperBox = styled.div`

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import mainImage from '../source/main_img.jpg';
+import mainImage from '../source/top_img.jpg';
 
 const Container = styled.div`
 

@@ -9,7 +9,7 @@ import Title from "./Title";
 import caravan from '../source/caravan_img.jpg'
 import forest from '../source/forest_img.jpg'
 import ocean from '../source/ocean_img.jpg'
-import pet from '../source/pet_img.jpg'
+import pet from '../source/dog_img.jpg'
 
 const Container = styled.div`
   width: 70rem;
