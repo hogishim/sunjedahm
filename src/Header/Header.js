@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import mainImage from '../source/top_img.jpg';
+import mainImage from '../source/main_img.jpg';
 
 const Container = styled.div`
 
@@ -20,14 +20,21 @@ height: 100%;
 `
 
 const TextOverlay = styled.div`
-
   color: white; 
   font-size: 2.7rem; 
   text-align: center; 
-   margin-top: -12rem;
+   margin-top: -9rem;
    font-weight: 500;
    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 `;
+
+const Title = styled.div`
+
+word-spacing: -5px;
+
+
+
+`
 
 const Header = () =>{
 
@@ -35,7 +42,7 @@ const Header = () =>{
 
         <Container>
             <BackgroundImage src={mainImage}/>
-            <TextOverlay>SUN JE DAHM <br /> SPECIAL PROMOTION</TextOverlay>
+            <TextOverlay><Title>SUN JE DAHM</Title> SPECIAL PROMOTION</TextOverlay>
 
         </Container>
 

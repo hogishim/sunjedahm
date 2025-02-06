@@ -77,6 +77,7 @@ const LowerBox = styled.div`
 const Cap = styled.div`
   color: #244e37;
   font-size: 0.9rem;
+  font-weight: 650;
 `;
 
 const Room = styled.div`
@@ -122,7 +123,7 @@ const RoomBox = ({ data }) => {
           </UpperBox>
           <LowerBox>
             <Room>
-              방구성: ({data.size}): 퀸 사이즈 침대{data.bed}, 욕실 {data.bath}
+              방구성: ({data.size}): 퀸 사이즈 침대 {data.bed}, 욕실 {data.bath}
             </Room>
           </LowerBox>
         </LeftBox>

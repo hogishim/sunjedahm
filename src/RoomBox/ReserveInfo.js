@@ -26,6 +26,7 @@ align-items: center;
 
 const TalkButton = styled.div`
 
+cursor: default;
 width: 15rem;
 height: 2rem;
 background-color: #24e864;
@@ -65,11 +66,10 @@ const ResrveInfo = () => {
     <Container>
       예약 문의: 평일 10:00-18:00에 상담 가능합니다.
       <ul>
-        <li>전화 010-7683-6220으로 예약 가능합니다.</li>
-        <li>이메일 info@sunjedahm.com으로 예약 가능합니다. </li>
+        <li>전화 010-7683-6220으로 예약하실 수 있습니다.</li>
+        <li>이메일 info@sunjedahm.com으로 예약하실 수 있습니다. </li>
         <li>
-          하단에 '네이버 톡톡 문의하기' 클릭하여 예약
-          가능합니다.{" "}
+          하단에 '네이버 톡톡 문의하기' 클릭하여 예약하실 수 있습니다.{" "}
         </li>
       </ul>
       <ButtonContainer>
@@ -86,7 +86,7 @@ const ResrveInfo = () => {
         <li>
           객실 예약 시 객실당 5만원의 사전 예약금을 지불하셔야 하며, 차액은 체크인 시 현장에서 결제하시면 됩니다. 
           <br />
-          입금 관련 상세 내용은 상담 후 안내받으실 수 있습니다. {" "}
+         입금 관련 상세 내용은 상담 후 안내받으실 수 있습니다. {" "}
         </li>
         <li>
         전화, 이메일 또는 네이버 톡톡으로 예약 요청을 주시면 검토 후 예약 확정 관련 내용을 안내드리겠습니다.

@@ -8,7 +8,7 @@ const Container = styled.div`
   align-items: center;
   font-size: 1.25rem;
   color: #244E37;
-  font-weight: 600;
+  font-weight: 700;
 `;
 
 const Title = ({ text }) => {
