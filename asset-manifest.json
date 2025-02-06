@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sunjedahm/static/css/main.c838e131.css",
-    "main.js": "/sunjedahm/static/js/main.46d27654.js",
+    "main.js": "/sunjedahm/static/js/main.8bed78a1.js",
     "static/js/488.47ab6d95.chunk.js": "/sunjedahm/static/js/488.47ab6d95.chunk.js",
     "static/media/Pretendard-Medium.otf": "/sunjedahm/static/media/Pretendard-Medium.a8904df42c9b4f93a668.otf",
     "static/media/top_img.jpg": "/sunjedahm/static/media/top_img.5f69231d25567948a725.jpg",
@@ -13,11 +13,11 @@
     "static/media/chat.png": "/sunjedahm/static/media/chat.4b0228bf3975020b1bf5.png",
     "index.html": "/sunjedahm/index.html",
     "main.c838e131.css.map": "/sunjedahm/static/css/main.c838e131.css.map",
-    "main.46d27654.js.map": "/sunjedahm/static/js/main.46d27654.js.map",
+    "main.8bed78a1.js.map": "/sunjedahm/static/js/main.8bed78a1.js.map",
     "488.47ab6d95.chunk.js.map": "/sunjedahm/static/js/488.47ab6d95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c838e131.css",
-    "static/js/main.46d27654.js"
+    "static/js/main.8bed78a1.js"
   ]
 }
