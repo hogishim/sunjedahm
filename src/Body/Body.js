@@ -68,17 +68,17 @@ const RightBox = styled.div`
   box-sizing: border-box;
 `;
 
-const Add = styled.div`
+// const Add = styled.div`
 
-height: 1.5rem;
-width: 40rem;
-display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom: 1rem;
-color: #244E37;
+// height: 1.5rem;
+// width: 40rem;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// margin-bottom: 1rem;
+// color: #244E37;
 
-`
+// `
 
 const Body = () => {
   return (
@@ -104,7 +104,7 @@ const Body = () => {
             <RoomBox key="1" data={data[1]} />
 
             <Hr width="40rem" />
-            <Title text="PARK & FORST GLAMPING" />
+            <Title text="PARK & FOREST GLAMPING" />
             <Image src={forest}/>
             <RoomBox key="2" data={data[2]} />
             <RoomBox key="3" data={data[3]} />
@@ -122,7 +122,6 @@ const Body = () => {
             <RoomBox key="7" data={data[6]} />
             <RoomBox key="8" data={data[7]} />
             <RoomBox key="9" data={data[8]} />
-            <Add><b>※ 오션뷰 A/B 객실 구성은 동일합니다</b></Add>
           </RightBox>
         </Row>
 
@@ -133,9 +132,9 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="23rem">
-          <LeftBox height="23rem">예약 문의</LeftBox>
-          <RightBox height="23rem">
+        <Row height="21rem">
+          <LeftBox height="21rem">예약 문의</LeftBox>
+          <RightBox height="21rem">
             <ReserveInfo />
           </RightBox>
         </Row>

@@ -26,6 +26,18 @@ const LinkBox = styled.div`
   font-size: 0.8rem;
 `;
 
+const LinkText1 = styled.div`
+
+cursor: default;
+
+`
+
+const LinkText2 = styled.div`
+
+cursor: default;
+
+`
+
 const LeftBox = styled.div`
   width: 20rem;
   height: 6rem;
@@ -99,7 +111,7 @@ const handleClick = (link) => {
 
 const RoomBox = ({ data }) => {
   return (
-    <Container onClick={() => handleClick(data.link)}>
+    <Container>
       <InfoBox>
         <LeftBox>
           <UpperBox>
@@ -126,7 +138,10 @@ const RoomBox = ({ data }) => {
           </LowerBox>
         </RightBox>
       </InfoBox>
-      <LinkBox>[객실 정보 바로가기]</LinkBox>
+      <LinkBox>
+      <LinkText1 onClick={() => handleClick(data.link)}>[{data.title1} 정보 바로 가기]</LinkText1>
+      {data.link2 != null ? <LinkText2  onClick={() => handleClick(data.link2)}> &nbsp; &nbsp; [{data.title2} 정보 바로 가기] </LinkText2> : <></>}
+      </LinkBox>
     </Container>
   );
 };
