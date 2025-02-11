@@ -28,13 +28,13 @@ const LinkBox = styled.div`
 
 const LinkText1 = styled.div`
 
-cursor: default;
+cursor: pointer;
 
 `
 
 const LinkText2 = styled.div`
 
-cursor: default;
+cursor: pointer;
 
 `
 
@@ -82,8 +82,9 @@ const Cap = styled.div`
 
 const Room = styled.div`
   display: flex;
+  width: 20rem;
   align-items: top;
-  justify-content: right;
+  justify-content: left;
   font-size: 0.9rem;
 `;
 

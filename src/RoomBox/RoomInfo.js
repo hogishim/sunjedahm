@@ -3,8 +3,10 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 40rem;
+  height: 16rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `;
 
 const Info = styled.div`

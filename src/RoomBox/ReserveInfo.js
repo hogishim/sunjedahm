@@ -3,8 +3,10 @@ import chatimage from '../source/chat.png'
 
 const Container = styled.div`
   width: 40rem;
+  height: 21rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
 `
 
@@ -26,7 +28,7 @@ align-items: center;
 
 const TalkButton = styled.div`
 
-cursor: default;
+cursor: pointer;
 width: 15rem;
 height: 2rem;
 background-color: #24e864;

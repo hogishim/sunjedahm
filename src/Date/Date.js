@@ -17,7 +17,7 @@ padding-right: 2rem;
 
 const Text = styled.div`
 
-width: 39rem;
+width: 45rem;
 display: flex;
 align-items: center;
 justify-content: center;
