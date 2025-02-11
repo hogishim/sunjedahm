@@ -7,6 +7,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 0.9rem;
 `;
 
 const Info = styled.div`
