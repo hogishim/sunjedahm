@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sunjedahm/static/css/main.c838e131.css",
-    "main.js": "/sunjedahm/static/js/main.ea53013b.js",
+    "main.js": "/sunjedahm/static/js/main.67f3a13c.js",
     "static/js/488.47ab6d95.chunk.js": "/sunjedahm/static/js/488.47ab6d95.chunk.js",
     "static/media/Pretendard-Medium.otf": "/sunjedahm/static/media/Pretendard-Medium.a8904df42c9b4f93a668.otf",
     "static/media/dog_img.jpg": "/sunjedahm/static/media/dog_img.06596de031f64bfc4c41.jpg",
@@ -13,11 +13,11 @@
     "static/media/chat.png": "/sunjedahm/static/media/chat.4b0228bf3975020b1bf5.png",
     "index.html": "/sunjedahm/index.html",
     "main.c838e131.css.map": "/sunjedahm/static/css/main.c838e131.css.map",
-    "main.ea53013b.js.map": "/sunjedahm/static/js/main.ea53013b.js.map",
+    "main.67f3a13c.js.map": "/sunjedahm/static/js/main.67f3a13c.js.map",
     "488.47ab6d95.chunk.js.map": "/sunjedahm/static/js/488.47ab6d95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c838e131.css",
-    "static/js/main.ea53013b.js"
+    "static/js/main.67f3a13c.js"
   ]
 }
