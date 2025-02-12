@@ -45,13 +45,13 @@ body {
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
   :root, html {
-    font-size: 7px !important;
+    font-size: 8px !important;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   :root, html {
-    font-size: 9px !important;
+    font-size: 10px !important;
   }
 }
 
