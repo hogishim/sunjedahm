@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sunjedahm/static/css/main.74d52e2a.css",
-    "main.js": "/sunjedahm/static/js/main.22e6a554.js",
+    "main.css": "/sunjedahm/static/css/main.7ed69d22.css",
+    "main.js": "/sunjedahm/static/js/main.cb4d748e.js",
     "static/js/488.47ab6d95.chunk.js": "/sunjedahm/static/js/488.47ab6d95.chunk.js",
     "static/media/Pretendard-Medium.otf": "/sunjedahm/static/media/Pretendard-Medium.a8904df42c9b4f93a668.otf",
     "static/media/dog_img.jpg": "/sunjedahm/static/media/dog_img.06596de031f64bfc4c41.jpg",
@@ -12,12 +12,12 @@
     "static/media/sunje.png": "/sunjedahm/static/media/sunje.af5067d5d99290bdd8c5.png",
     "static/media/chat.png": "/sunjedahm/static/media/chat.4b0228bf3975020b1bf5.png",
     "index.html": "/sunjedahm/index.html",
-    "main.74d52e2a.css.map": "/sunjedahm/static/css/main.74d52e2a.css.map",
-    "main.22e6a554.js.map": "/sunjedahm/static/js/main.22e6a554.js.map",
+    "main.7ed69d22.css.map": "/sunjedahm/static/css/main.7ed69d22.css.map",
+    "main.cb4d748e.js.map": "/sunjedahm/static/js/main.cb4d748e.js.map",
     "488.47ab6d95.chunk.js.map": "/sunjedahm/static/js/488.47ab6d95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74d52e2a.css",
-    "static/js/main.22e6a554.js"
+    "static/css/main.7ed69d22.css",
+    "static/js/main.cb4d748e.js"
   ]
 }
