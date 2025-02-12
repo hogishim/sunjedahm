@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+html, body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 
 
 li span {
@@ -27,6 +32,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: content-box;
+
 }
 
 @media screen and (max-width: 480px) {
