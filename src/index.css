@@ -39,32 +39,31 @@ body {
 
 @media screen and (max-width: 480px) {
   :root, html {
-    font-size: 6px;
+    font-size: 6px !important;
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   :root, html {
-    font-size: 9px;
+    font-size: 9px !important;
   }
 }
 
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   :root, html {
-    font-size: 12px;
+    font-size: 12px !important;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   :root, html {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 
 @media screen and (min-width: 1440px) {
   :root, html {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 }
 
