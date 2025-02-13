@@ -125,16 +125,16 @@ const Body = () => {
           </RightBox>
         </Row>
 
-        <Row height="16rem">
-          <LeftBox height="16rem">유의 사항</LeftBox>
-          <RightBox height="16rem">
+        <Row height="17rem">
+          <LeftBox height="17rem">유의 사항</LeftBox>
+          <RightBox height="17rem">
             <RoomInfo />
           </RightBox>
         </Row>
 
-        <Row height="21rem">
-          <LeftBox height="21rem">예약 문의</LeftBox>
-          <RightBox height="21rem">
+        <Row height="22rem">
+          <LeftBox height="22rem">예약 문의</LeftBox>
+          <RightBox height="22rem">
             <ReserveInfo />
           </RightBox>
         </Row>

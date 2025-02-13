@@ -37,13 +37,8 @@ body {
 
 }
 
-@media screen and (max-width: 300px) {
-  :root, html {
-    font-size: 5px !important;
-  }
-}
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   :root, html {
     font-size: 8px !important;
   }
